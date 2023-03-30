@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%; /*Largura*/
+    height: 100px; /*Altura*/
+    background-color: #ffe5ec; /*Cores de fundo*/
+    border-radius: 2px;
+}
+
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 2%;
+    color: #d3039e;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #d3039e;
+}
+
+a:hover{
+    font-size: 25px;
+    color: gray;
+    background-color: #ffc2d1;
+}
+
+ul{
+    list-style-type: none; /*Tirar marcador*/
+    display: flex;
+    justify-content: center;
+}
+
+div{
+    background-color: blue;
+    width: 100%;
+    height: 300px;
+}
+
+footer{
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+}
